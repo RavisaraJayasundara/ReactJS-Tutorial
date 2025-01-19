@@ -5,6 +5,7 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
 
 function App() {
   return (
@@ -12,10 +13,12 @@ function App() {
       
       {/*<Message/>
       <Counter/>*/}
+       <FunctionClick/>
+       
       {/*
       <Greet name="Udu" heroName='Batman'>
         <p> This is children props</p>
-      </Greet>
+       </Greet>
       <Greet name="Sara" heroName='Wonder woman'>
         <button>Action</button>
       </Greet>
