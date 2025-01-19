@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
 
-export default function Greet(){
-    return(
-        <h1>
-            hello Ravi...!!!
-        </h1>
-    );
+export default function Greet(props) {
+  return (
+    <div>
+      <h1>
+        Hello {props.name} {props.heroName}..!!!
+      </h1>
+      {props.children}
+    </div>
+  );
 }
